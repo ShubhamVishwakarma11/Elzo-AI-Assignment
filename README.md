@@ -8,7 +8,9 @@ Fairly simple and basic 1-2 liner prompt.
 
 <details>
 <summary> System Prompt </summary>
-You are being provided a transcript of a product review interview. Your task is to generate insights based on the given transcript to make it valuable and actionable from a product improvement standpoint.
+   ```
+       You are being provided a transcript of a product review interview. Your task is to generate insights based on the given transcript to make it valuable and actionable from a product improvement standpoint.
+   ```
 </details>
 <br>
 Response Quality:
@@ -51,7 +53,7 @@ You are being provided a transcript of a product review interview. Your task is 
 </details>
 <br>
 Response Quality:
-
+<br>
 | Temperature = 1                                                                                                                                                         | Temperature = 0.7                                                                                                                                                                                 | Temperature = 1.4                                                                                                                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Formatted response with each insight broken down into individual point including summary of the insight, the sentiment associated and an actionable step if applicable. | Gives a better summarized version of insights from the transcript and include the exact words as used in transcript which helps in preserving the exact meaning and sentiment of the user review. | In addition to including the details from the transcript, the response included further more insights and conclusions which can be helpful in understanding the sentiment and review of the user better. |
